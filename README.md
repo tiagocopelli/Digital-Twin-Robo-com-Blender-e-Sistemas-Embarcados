@@ -1,11 +1,11 @@
-Projeto Final - Residência tecnológica em desenvolvimento de software embarcado - EmbarcaTech
+## Projeto Final - Residência tecnológica em desenvolvimento de software embarcado - EmbarcaTech
 
-🤖 Robô com Digital Twin no Blender usando FreeRTOS
+## 🤖 Robô com Digital Twin no Blender usando FreeRTOS
 
 Este projeto consiste no desenvolvimento de um sistema embarcado para controle de um braço robótico, integrado a um Digital Twin no software Blender. O sistema utiliza FreeRTOS para gerenciamento de tarefas concorrentes e comunicação bidirecional em tempo real entre o robô físico e o ambiente virtual.
 
 
-📖 Visão Geral
+## 📖 Visão Geral
 
 O robô pode ser controlado de múltiplas formas:
 - Botões físicos (placa BitControl)
@@ -17,7 +17,7 @@ O robô pode ser controlado de múltiplas formas:
 Todas as formas de controle atuam de maneira sincronizada, alterando simultaneamente o robô físico e o robô virtual no Blender.
 
 
-⚙️ Funcionalidades
+## ⚙️ Funcionalidades
 
 - Controle de servomotores via PCA9685
 - Execução concorrente com FreeRTOS
@@ -30,7 +30,7 @@ Todas as formas de controle atuam de maneira sincronizada, alterando simultaneam
 - Comunicação serial via UART
 
 
-🧩 Arquitetura do Sistema
+## 🧩 Arquitetura do Sistema
 
 O sistema é baseado em múltiplas tarefas do FreeRTOS, cada uma responsável por uma funcionalidade específica, como:
 - Comunicação de rede
@@ -43,7 +43,7 @@ O sistema é baseado em múltiplas tarefas do FreeRTOS, cada uma responsável po
 Os comandos são organizados por meio de filas e protegidos por mutexes, garantindo operação segura e determinística.
 
 
-🛠️ Hardware Utilizado
+## 🛠️ Hardware Utilizado
 
 - Placa BitDogLab
 - Microcontrolador Raspberry Pi Pico W (RP2040)
@@ -57,7 +57,7 @@ Os comandos são organizados por meio de filas e protegidos por mutexes, garanti
 ⚠️ Observação: O teclado matricial e a garra física não são utilizados neste projeto.
 
 
-💻 Software Utilizado
+## 💻 Software Utilizado
 
 - Raspberry Pi Pico SDK
 - FreeRTOS
@@ -65,3 +65,6 @@ Os comandos são organizados por meio de filas e protegidos por mutexes, garanti
 - Python (Add-on do Blender)
 - Protocolo UDP
 - Arduino IDE / CMake (dependendo do build)
+
+## 🎥 Demonstração
+https://github.com/SEU_USUARIO/NOME_REPO/raw/main/media/demo.mp4
